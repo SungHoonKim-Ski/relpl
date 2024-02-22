@@ -2,6 +2,8 @@ package com.ssafy.relpl.controller.rest;
 
 import com.ssafy.relpl.dto.request.MypageChangePasswordRequest;
 import com.ssafy.relpl.dto.request.MypageChangeRequest;
+import com.ssafy.relpl.dto.request.MypageExitRequest;
+import com.ssafy.relpl.dto.request.UserLoginRequest;
 import com.ssafy.relpl.service.MypageService;
 import com.ssafy.relpl.service.result.CommonResult;
 import lombok.RequiredArgsConstructor;
@@ -23,7 +25,6 @@ public class MypageController {
     private final MypageService mypageService;
 
 
-    // 24.02.05 10:41AM POSTMapping -> PUTMapping
     @PutMapping(value = "", consumes = {"multipart/form-data"})
     public ResponseEntity<CommonResult> changeProfile(@ModelAttribute MypageChangeRequest request) throws IOException {
         log.info("changeProfile");
@@ -35,6 +36,11 @@ public class MypageController {
     public ResponseEntity<CommonResult> changePassword(@RequestBody MypageChangePasswordRequest request) {
         log.info("changePassword");
         return mypageService.changePassword(request);
+    }
+
+    @PostMapping("/exit")
+    public ResponseEntity<CommonResult> exit(@RequestBody MypageExitRequest request) {
+        return mypageService.exit(request);
     }
 
 

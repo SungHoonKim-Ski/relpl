@@ -6,7 +6,7 @@
 </h1>
 
 <div align="center">
-<img src="https://blog.kakaocdn.net/dn/o6NbZ/btsEP7zFkus/EvoxawE97IKX8CEcse8zJ0/tfile.svg" width="400px">
+<img src="https://blog.kakaocdn.net/dn/o6NbZ/btsEP7zFkus/EvoxawE97IKX8CEcse8zJ0/tfile.svg" width="402px">
 </div>
 
 <div>

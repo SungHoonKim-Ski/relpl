@@ -27,18 +27,18 @@
 - 기획의도 : 효율적인 플로깅이 가능하도록 돕고, 지속적인 플로깅을 위한 동기 부여가 가능하도록 하고자 했습니다.
 
 - 개발 인원 및 기간
-  
-  - 개발 인원 : Android 2명, BackEnd 4명
-  
-  - 개발 기간 : 2024.01.03 ~ 2024.02.16 (총 45일, Business Day 31일)
+
+    - 개발 인원 : Android 2명, BackEnd 4명
+
+    - 개발 기간 : 2024.01.03 ~ 2024.02.16 (총 45일, Business Day 31일)
 
 - 주요 기능
-  
-  - 유저 관련 기능
-  
-  - 릴레이 플로깅 관련 기능
-  
-  - 제보, 보상 관련 기능
+
+    - 유저 관련 기능
+
+    - 릴레이 플로깅 관련 기능
+
+    - 제보, 보상 관련 기능
 
 - 데모 시연 영상 : [D201 UCC (youtube.com)](https://www.youtube.com/watch?v=hv8uWsDKsy0)
 
@@ -123,7 +123,7 @@
 - [요구사항 명세서](https://docs.google.com/spreadsheets/d/1ZayfMIxvD49W1cAYiXdvZzePvYK2iXs2G8KfIWohgio/edit?usp=sharing)
 
 - [API 명세서](https://grand-check-7ba.notion.site/API-33f7e2f1f2e14a1683b82493a37beebd?pvs=4)
-  
+
 - [피그마 링크](https://www.figma.com/file/CNQG7GcXmt00S7lykwbBrp/GDD?type=design&node-id=0-1&mode=design)
 
 
@@ -245,23 +245,27 @@
 
 ## Back-End Role & Responsibility (R&R)
 
-#### 김성훈
+## 김성훈 
+[프로젝트 간략 소개](https://seounghoon.tistory.com/165)
 
-- 인프라
+- ### 인프라(gitlab runner)
+  - [배포 과정에서 겪었던 문제점](https://seounghoon.tistory.com/168)
+- ### 백엔드 초기 환경 구축
+  - [구축 과정에서 겪었던 문제점](https://seounghoon.tistory.com/166)
+- #### 백엔드 구조 설계
+- #### 데이터베이스 설계
+- ### Tmap API 를 활용한 초기 도로 DB 구축(InitDB) - 코틀린 활용 
+  - [도로 DB 구축 과정에서 겪은 문제점](https://seounghoon.tistory.com/167)
+- #### 릴레이 플로깅 생성 API
+- ### 플로깅 경로 추천 기능
+  - [플로깅 경로 추천에서 겪은 문제점 1](https://seounghoon.tistory.com/169) - 추천 경로 계산 시간이 너무 느린 문제
+  - [플로깅 경로 추천에서 겪은 문제점 2](https://seounghoon.tistory.com/171) - 올바른 경로가 나오지 않는 문제 1
+  - [플로깅 경로 추천에서 겪은 문제점 3](https://seounghoon.tistory.com/170)- 올바른 경로가 나오지 않는 문제 2
 
-- 백엔드 초기 환경 구축
-
-- 백엔드 구조 설계
-  
-- 데이터베이스 설계
-  
-- Tmap API 를 활용한 초기 도로 DB 구축(InitDB)
-
-- 릴레이 플로깅 생성 API
-
-- 플로깅 경로 추천 기능
-
+</br></br>
 #### 최재성
+
+- 데이터베이스 설계
 
 - jwt, Spring Security 를 이용한 회원가입 API
 
@@ -305,7 +309,7 @@
 - Kotlin : <span style="color:blueviolet"> Coroutine, Flow </span>
 - Library : <span style="color:orange"> Retrofit, Glide, Naver Map, Google Location, Firebase(FCM, Auth), Zxing</span>
 - UI Library : <span style="color:skyblue"> StickyTimeLine, Pager Dots Indicator
-, Floating Action Button Speed Dial, Lottie </span>
+  , Floating Action Button Speed Dial, Lottie </span>
 - Architecture : <span style="color:gray"> MVVM, MultiModule, CleanArchitecture</span>
 
 <br/><br/><br/>
@@ -322,7 +326,7 @@
 #### 정철주
 - 앱 구조 구성, 모듈화
 - 릴레이 진행, 중단
-  - 포그라운드 서비스 활용 위치 추적
+    - 포그라운드 서비스 활용 위치 추적
 - 랭킹
 - 제보하기, 제보기록
 - 포인트 내역, 포인트 사용
@@ -334,6 +338,6 @@
 - 거리, 경로 릴레이 조회
 - 거리, 경로 릴레이 참여
 - 유저정보
-  - 프로필, 회원정보 수정
+    - 프로필, 회원정보 수정
 - 내 플로깅 기록, 상세 기록
 - JWT 토큰 대응

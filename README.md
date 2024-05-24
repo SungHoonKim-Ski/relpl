@@ -41,51 +41,7 @@
     - 제보, 보상 관련 기능
 
 - 데모 시연 영상 : [D201 UCC (youtube.com)](https://www.youtube.com/watch?v=hv8uWsDKsy0)
-
----
 <br/><br/><br/>
-
-## 팀원소개
-
-<center>  
-<table>
-  <tr>
-    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/d2Sec4/btsETi7NKEO/kQCJxQQVCoJq529c02jVIK/img.jpg" width="200" alt="정철주"></td>
-    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/pSIdE/btsEVfJvBJ4/sdNN7OCrkarJYApZ1bU9y0/img.jpg" width="200" alt="홍유준"></td>
-    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/pbmw2/btsEQRwAVlS/CeeGY7kZ8mW9r8qoxQaEI0/img.jpg" width="200" alt="김성훈"></td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">🍺 정철주</td>
-    <td style="text-align: center;">☕ 홍유준</td>
-    <td style="text-align: center;">🍜 김성훈</td>
-  </tr>
-
-  <tr>
-    <td style="text-align: center;">App(Android)</td>
-    <td style="text-align: center;">App(Android)</td>
-    <td style="text-align: center;">Back-End(Spring)</td>
-  </tr>
-</table>
-<table>
-  <tr>
-    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/dtTZ9t/btsETYBeX6j/JX9QbCz3TMgTUYpPUqXmDK/img.jpg" width="200" alt="김효주"></td>
-    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/tBheL/btsETYuubJI/slJ3w1jFvcEzUJg0QFEKD1/img.jpg" width="200" alt="송민석"></td>
-    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/6a0VG/btsETkq17SE/KyCUURrp4Cnn70PPHCzCU0/img.jpg" width="200" alt="최재성"></td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">😺 김효주</td>
-    <td style="text-align: center;">🐸 송민석</td>
-    <td style="text-align: center;">⚽ 최재성</td>
-  </tr>
-
-  <tr>
-    <td style="text-align: center;">Back-End(Spring)</td>
-    <td style="text-align: center;">Back-End(Spring)</td>
-    <td style="text-align: center;">Back-End(Spring)</td>
-  </tr>
-</table>
-</center>
-<br/><br/><br/><br/><br/><br/>
 
 ## 기능, 동작 화면
 | ![](https://blog.kakaocdn.net/dn/cFQYGA/btsEQcVmwqk/XBAiK3PaIrOFFqdxnMO7n0/img.gif) | ![](https://blog.kakaocdn.net/dn/dc8LEm/btsENTIGM1o/iTlPzy48Uq02Kr9SSGea7K/img.gif) | ![](https://blog.kakaocdn.net/dn/ypeXN/btsES6T48Tp/M8ah0LfARY1H6s7ZZbHnw1/img.gif) |
@@ -242,6 +198,48 @@
         ├── RoadData.kt
         └── TmapData.kt
 ```
+
+## 팀원소개
+
+<center>  
+<table>
+  <tr>
+    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/d2Sec4/btsETi7NKEO/kQCJxQQVCoJq529c02jVIK/img.jpg" width="200" alt="정철주"></td>
+    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/pSIdE/btsEVfJvBJ4/sdNN7OCrkarJYApZ1bU9y0/img.jpg" width="200" alt="홍유준"></td>
+    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/pbmw2/btsEQRwAVlS/CeeGY7kZ8mW9r8qoxQaEI0/img.jpg" width="200" alt="김성훈"></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">🍺 정철주</td>
+    <td style="text-align: center;">☕ 홍유준</td>
+    <td style="text-align: center;">🍜 김성훈</td>
+  </tr>
+
+  <tr>
+    <td style="text-align: center;">App(Android)</td>
+    <td style="text-align: center;">App(Android)</td>
+    <td style="text-align: center;">Back-End(Spring)</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/dtTZ9t/btsETYBeX6j/JX9QbCz3TMgTUYpPUqXmDK/img.jpg" width="200" alt="김효주"></td>
+    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/tBheL/btsETYuubJI/slJ3w1jFvcEzUJg0QFEKD1/img.jpg" width="200" alt="송민석"></td>
+    <td style="text-align: center;"><img src="https://blog.kakaocdn.net/dn/6a0VG/btsETkq17SE/KyCUURrp4Cnn70PPHCzCU0/img.jpg" width="200" alt="최재성"></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">😺 김효주</td>
+    <td style="text-align: center;">🐸 송민석</td>
+    <td style="text-align: center;">⚽ 최재성</td>
+  </tr>
+
+  <tr>
+    <td style="text-align: center;">Back-End(Spring)</td>
+    <td style="text-align: center;">Back-End(Spring)</td>
+    <td style="text-align: center;">Back-End(Spring)</td>
+  </tr>
+</table>
+</center>
+<br/><br/><br/><br/><br/><br/>
 
 ## Back-End Role & Responsibility (R&R)
 
